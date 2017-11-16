@@ -4,7 +4,7 @@ import { NgProgressState } from '../models/progress.state';
 @Component({
   selector: 'ng-progress-bar',
   template: `
-  <div class="ng-progress" *ngIf="state" [class.active]="state.active" [class.thick]="thick">
+  <div class="ng-progress2" *ngIf="state" [class.active]="state.active" [class.thick]="thick">
     <div class="bar" [ngStyle]="barStyles()">
       <div class="bar-shadow" [ngStyle]="shadowStyles()"></div>
     </div>
